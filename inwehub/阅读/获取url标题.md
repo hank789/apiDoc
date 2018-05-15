@@ -27,7 +27,8 @@
   "code": 1000,
   "message": "操作成功",
   "data": [
-    "title": "主题",//文章标题  
+    "title": "主题",//文章标题
+    "img_url": "http://baidu.jpg",//文章封面图片
   ]
 }
 ``` 
