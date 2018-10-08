@@ -36,6 +36,10 @@ type目前只有:weixinapp|weixin_gzh
   "message": "操作成功",
   "data": {
     "token": "rfghjk",//登陆凭证，如果返回null，说明未登录
+    "wechat_name": "dfd",//微信昵称
+    "avatar": "头像",
+    "name": "app昵称",
+    "is_expert": 1,//是否专家
   }
 }
 ``` 
