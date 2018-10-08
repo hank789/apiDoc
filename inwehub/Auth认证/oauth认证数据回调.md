@@ -32,7 +32,7 @@ type目前只有:weixinapp|weixin_gzh
 ```json5
 {
   "status": true,
-  "code": 1000,
+  "code": 1000,//1113：此微信已绑定其它手机号；1131：此微信已注册并可以合并，此时再次调用此接口，bindType传2进行账户合并；1132：当前用户已绑定微信，不能合并微信账户，当bindType为2时触发，正确调用不会出现这类情况
   "message": "操作成功",
   "data": {
     "token": "rfghjk",//登陆凭证，如果返回null，说明未登录
