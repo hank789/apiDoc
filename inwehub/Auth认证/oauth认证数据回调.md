@@ -25,7 +25,7 @@ type目前只有:weixinapp|weixin_gzh
 | expires_in | string   | yes   | access_token接口调用凭证超时时间，单位（秒） |
 | scope     | string   | yes      | 用户授权的作用域，使用逗号（,）分隔 |
 | full_info  | array   | no      | 详细信息 |
-| bindType     | int      | yes      | 绑定类型，1无操作，2合并微信账户,默认1 |
+| bindType     | int      | yes      | 绑定类型，1无操作，2合并微信账户，3导入微信头像和昵称,默认1 |
 
 ## 返回体
 
