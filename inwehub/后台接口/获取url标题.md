@@ -2,7 +2,7 @@
 
 ## 接口地址
 
-`/api/manage/product/fetch-url-title`
+`/api/manage/product/fetchUrlInfo`
 
 ## 请求方式
 
